@@ -23,7 +23,20 @@ func main() {
 			ProjectsBuild:         "",
 			LeetcodeProblemSolved: "",
 		},
-		//{Name: "Jane Doe", Age: 25},
+		{
+			Topic:                 "Docker",
+			MyLearnings:           "Understood about the images , containers, Stats, Docker Hub, Bridge, Hosts and its commands",
+			Date:                  "22.06.2024",
+			ProjectsBuild:         "",
+			LeetcodeProblemSolved: "",
+		},
+		{
+			Topic:                 "Ollama",
+			MyLearnings:           "Set ollama locally on docker , imported llama3 on the docker container, ran it",
+			Date:                  "22.06.2024",
+			ProjectsBuild:         "",
+			LeetcodeProblemSolved: "",
+		},
 	}
 
 	jsonData, err := json.Marshal(Topics)
